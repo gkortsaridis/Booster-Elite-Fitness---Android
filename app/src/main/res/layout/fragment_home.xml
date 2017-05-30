@@ -1,0 +1,115 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:src="@drawable/background1"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Welcome to our BOX"
+                android:textColor="#FAFAFA"
+                android:layout_marginTop="16dp"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WHAT IS Fitness?"
+                android:textColor="#FAFAFA"
+                android:layout_margin="16dp"
+                android:textSize="17sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Το CrossFit είναι μία μέθοδος γυμναστικής για όλο το σώμα με καλά αποτελέσματα. Στο πρόγραμμα αυτό χρησιμοποιούνται τα καλύτερα στοιχεία και οι πιο ωφέλιμες ασκήσεις για τον άνθρωπο και την υγεία του, από διάφορα αθλήματα και συστήματα προπόνησης."
+                android:textColor="#FAFAFA"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:textSize="17sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ποιοι Είμαστε?"
+                android:textColor="#FAFAFA"
+                android:layout_gravity="end"
+                android:layout_margin="16dp"
+                android:textSize="17sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Το Booster CrossFit Θεσσαλονίκη, είναι ένα affiliate box αναγνωρισμένο από την ίδια την CrossFit. Βρίσκεται στη κάτω Τούμπα Θεσσαλονίκης σε ένα χώρο 500 m2 που ταιριάζει στο ύφος του αθλήματος του CrossFit. Ένα δεύτερο box λειτουργεί στην Καλαμαριά. Η ομάδα μας περιμένει να σας γνωρίσει από κοντά και να σας καθοδηγήσει σε νέες προκλήσεις που θα βοηθήσουν στη σωματική και ψυχική σας υγεία."
+                android:textColor="#FAFAFA"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:textSize="17sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Ώρες Λειτουργίας"
+                android:textColor="#FAFAFA"
+                android:layout_marginTop="16dp"
+                android:textStyle="bold"
+                android:textSize="17sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Δευτέρα - Παρασκευή : 8.00 - 23.00"
+                android:textColor="#FAFAFA"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:textStyle="bold"
+                android:textSize="17sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Σάββατο : 12.00 - 20.00"
+                android:textColor="#FAFAFA"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:textStyle="bold"
+                android:textSize="17sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Κυριακή : 17.00 - 21.00"
+                android:textColor="#FAFAFA"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginBottom="16dp"
+                android:textStyle="bold"
+                android:textSize="17sp"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
