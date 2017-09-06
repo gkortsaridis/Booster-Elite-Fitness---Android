@@ -61,6 +61,9 @@ public class WODFragment extends Fragment {
                 Elements wods_list = doc.select("div.callout_box");
                 Log.i("WODS",wods_list.size()+"");
                 for(int i=0; i<7; i++){
+                    Log.i(i+"",wods_list.get(i).toString());
+                    Log.i(i+"",wods_list.get(i).select("p").toString().replace("<p>","").replace("</p>","").replace("<br />","").replace("<br/>","").replace("&nbsp;"," "));
+
                     wods.add(new WOD(
                             wods_list.get(i).select("span.day").text()+" "+wods_list.get(i).select("span.title").text(),
                             wods_list.get(i).select("p").toString().replace("<p>","").replace("</p>","").replace("<br />","").replace("<br/>","").replace("&nbsp;"," ")
